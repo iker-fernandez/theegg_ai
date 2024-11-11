@@ -12,8 +12,8 @@ mat_5[0,:]=1 ; mat_5[-1,:]=1 ; mat_5[:,0]=1 ; mat_5[:,-1]=1 ; mat_5[2,2]=1 #5
 mat_6=np.zeros((4,4),dtype=int)
 mat_6[:,1]=1 ; mat_6[:,2]=2 ; mat_6[:,3]=3 #6
 
-mat_7=np.zeros((2,7)) #7
-mat_8=np.zeros((5,4)) ; mat_8[0,:]=1 #8
+arr_7=np.zeros((2,7)) #7
+arr_8=np.zeros((5,4)) ; arr_8[0,:]=1 #8
 
-mat_9=np.zeros((8,8))
-mat_9[::2,::2]=1 ; mat_9[1::2,1::2]=1 #9
+arr_9=np.zeros((8,8))
+arr_9[::2,::2]=1 ; arr_9[1::2,1::2]=1 #9
